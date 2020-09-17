@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>index page</title>
+  <style>
+    html{ height:100%; overflow:scroll; font-family: Arial, Helvetica, sans-serif; }
+    body{ height:100%; text-align: center;}
+
+    body {
+        background-color: bisque;
+    }
+
+    header{
+        background-color: white;
+        height: 10%;
+        position: relative;
+    }
+
+    footer{
+        background-color: white;
+        height: 12%;
+    }
+
+    ul{
+        position: absolute;
+        margin: 0%;
+        left: 70%;
+        top: 12px;
+        
+    }
+    li {
+        display:inline-block;
+
+        background-color:brown;
+        list-style-type: none;
+
+        padding:13px;
+    }
+    li>a{
+        color: white;
+    }
+
+    .mid{
+        background-color: white;
+        height: 120%;
+    }
+
+    img{
+        width: 750px;
+    }
+
+    .midButton{
+        position: relative;
+        display: inline-block;
+        background-color:brown;
+        width: 70px; height: 70px;
+        margin: 5px;
+        padding: 10px;
+
+        box-shadow: 3px 3px 2px gray;
+    }
+    .midButton>a{
+        position: absolute;
+        top: 35px;
+        margin-left:7px;
+        display: block;
+        color:white;
+    }
+    .midButton>a:hover{
+    	color: yellow;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <header>
+      <nav>
+        <ul>
+            <li><a href="./index.html">홈</a></li>
+            <li><a href="./aboutme.html">자기소개</a></li>
+            <li><a href="./photo.html">내 사진</a></li>
+            <li><a href="http://localhost:8080/aboutme/today">몇시에요</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <div class=mid>
+    <h3><br>풀스택 개발자 138dragon</h3>
+    <p>함께 개발하고 성장하고 싶어요<br>make the world better</p>
+    <div class=midButton>
+        <a href="./aboutme.html">자기소개</a>
+    </div>
+    <div class=midButton>
+        <a href="./photo.html">내  사진</a>
+    </div>
+    <br><br>
+    <img id=desert src="imgs/desert.jpg" alt="venezande's pic @ pixabay">
+  </div>
+
+  <footer>
+        <p>
+            <br>b8yon9@ewha<br>
+            https://github.com/138dragon<br><br>
+        </p>
+  </footer>
+  <div><br></div>
+</body>
+</html>
